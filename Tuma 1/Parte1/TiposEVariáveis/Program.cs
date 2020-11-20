@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
+using TiposEVariáveis.TiposReferencia;
 
 namespace TiposEVariáveis
 {
@@ -192,6 +193,7 @@ namespace TiposEVariáveis
             var (x1, y1) = (0.0, 0.0);
             Console.WriteLine("Coordenada Cartesiana x: {0} e y:{1}", x1, y1);
 
+            new Usuario().TesteDelegado();
         }
     }
 }
